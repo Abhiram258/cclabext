@@ -26,5 +26,5 @@ portfolio -> ubuntu os
 sudo su
 git clone
 sudo apt-get install docker.io
-docker build -t myimage
+docker build -t myimage .
 docker run -d -p 8080:80 myimage
